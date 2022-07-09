@@ -1,1 +1,12 @@
 /* styles go here */
+.fieldset:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.fieldset__label {
+  display: block;
+}
+
+.fieldset__label:not(:last-child) {
+  margin-bottom: 10px;
+}
